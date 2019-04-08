@@ -1,11 +1,15 @@
 
-1��������������Ҳ���Լ��������� void�ؼ���  ������������
+1、基本数据类型也有自己的类类型 void关键字  都存在类类型
 
 
-�κ�һ���඼��class��ʵ������
-��ȡ�������Ե����ַ�ʽ;
-��.class
-�����.getclass
+任何一个类都是class的实例对象
+获取类类型性的三种方式;
+类.class
+类对象.getclass
 class.forName
 
-��������Զ�����Ҳ�Ƕ�����class���ʵ�ж��� ����������ǳ�Ϊ�����������
+万事万物皆对象，类也是对象，是class类的实列对象 这个对象我们称为该类的类类型
+
+method filed constructor 都实现了Menber 此接口,因此可以通过 instanceof 判断反射拿到的对象是否属于这三个范畴、
+method.getModifiers()可以判断修饰类型是 public private protect等
+还可以通过Modifier.isPublic(method.getModifiers())
